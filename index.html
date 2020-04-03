@@ -5,16 +5,26 @@
     <meta charset="utf-8" />
     <style>
       /* GLOBAL STYLES */
+      body {
+        height: 800px;
+      }
       a {
-        color: red;
+        color: #f00;
+      }
+      h2 {
+        font-size: 30px;
       }
       /* SOCIAL STYLES */
       a.social-link {
+        background: rgba(150, 150, 150, 0.5);
         color: blue;
       }
       /* BIO STYLES */
+      .bio-wrapper {
+      }
       .bio-box {
         border: 1px solid black;
+        width: 50%;
       }
       .bio-copy a {
         color: green;
@@ -35,6 +45,7 @@
       </li>
     </ul>
     <h2>I'm an h2</h2>
+    <div class="bio-wrapper">
     <div class="bio-box">
       <h3>Michael Hartl</h3>
       <a href="https://twitter.com/mhartl" class="social-link">here</a>
@@ -78,10 +89,12 @@
       </div>
     </div>
     <div class="bio-box">
+
       <h3>??</h3>
       <p>
         The Future
       </p>
+    </div>
     </div>
   </body>
 </html>
